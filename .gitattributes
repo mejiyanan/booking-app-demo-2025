@@ -1,4 +1,4 @@
-cat > .gitattributes << 'EOF'
+cat  .gitattributes  
 *.sh            text eol=lf
 Dockerfile      text eol=lf
 docker-compose.yml text eol=lf
@@ -9,4 +9,3 @@ docker-compose.yml text eol=lf
 *.prisma        text eol=lf
 *.yml           text eol=lf
 *.yaml          text eol=lf
-EOF
